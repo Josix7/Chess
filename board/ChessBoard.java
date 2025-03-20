@@ -1,5 +1,10 @@
 package board;
 
+// Author Jose Luis Hernandez
+
+// This codde is in charge of verifying the bounds of the chess board it does this with 
+//the enum x cord as well as the invalid coordinate method pullled from other packages.
+
 import figures.LocationX;
 import exceptions.InvalidCoordinateException;
 
@@ -17,5 +22,4 @@ public class ChessBoard implements IntChessBoard {
         return true;
     }
     
-    // Additional board methods (like piece placement, move history, etc.) can be added here.
 }

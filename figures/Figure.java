@@ -2,6 +2,12 @@ package figures;
 
 import exceptions.InvalidMoveException;
 
+/**
+ * Author: Jose Luis Hernandez
+ * Description: This abstract class provides common fields and methods for all chess pieces.
+ * It partially implements the IntFigure interface and serves as the base class for specific pieces.
+ */
+
 public abstract class Figure implements IntFigure {
     protected PieceName pieceName;
     protected LocationX currentX;

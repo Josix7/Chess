@@ -2,6 +2,12 @@ package figures;
 
 import exceptions.InvalidMoveException;
 
+/**
+ * Author: Jose Luis Hernandez
+ * Description: This class represents a Pawn chess piece.
+ * It extends the Figure class and implements movement logic specific to a Pawn.
+ */
+
 public class Pawn extends Figure {
 
     public Pawn(LocationX currentX, int currentY) {

@@ -4,6 +4,11 @@ import figures.*;
 import board.*;
 import exceptions.*;
 
+/**
+ * Author: Jose Luis Hernandez
+ * Description: This is the main class that drives the Chess Game application.
+ * It handles user interactions, chess piece creation, coordinate verification, and move execution.
+ */
 
 public class ChessGame {
     public static void main(String[] args) {

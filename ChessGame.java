@@ -5,12 +5,29 @@ import board.*;
 import exceptions.*;
 
 /**
- * Author: Jose Luis Hernandez
- * Description: This is the main class that drives the Chess Game application.
- * It handles user interactions, chess piece creation, coordinate verification, and move execution.
+ * Main driver class for the Chess Game application.
+ * <p>
+ * This class handles all user interaction, including:
+ * <ul>
+ *     <li>Prompting for piece type and coordinates</li>
+ *     <li>Validating input</li>
+ *     <li>Creating the correct chess piece</li>
+ *     <li>Executing and verifying the move</li>
+ * </ul>
+ * </p>
+ * 
+ * Uses various classes from the {@code figures}, {@code board}, and {@code exceptions} packages.
+ * 
+ * @author Jose Luis Hernandez
+ * @version 5.1
  */
 
 public class ChessGame {
+    /**
+     * The entry point of the Chess Game application.
+     *
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         IntChessBoard board = new ChessBoard();
